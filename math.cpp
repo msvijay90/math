@@ -1,8 +1,8 @@
-// MathLibrary.cpp
+// math.cpp
 
-#include "MathLibrary.h"
+#include "math.h"
 
-namespace MathLibrary
+namespace math
 {
     double Arithmetic::Add(double a, double b)
     {
