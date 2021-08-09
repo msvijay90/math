@@ -1,7 +1,7 @@
-// MathLibrary.h
+// math.h
 #pragma once
 
-namespace MathLibrary
+namespace math
 {
     class Arithmetic
     {
