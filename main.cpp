@@ -1,7 +1,7 @@
-// MathClient.cpp
+// math.cpp
 
 #include <iostream>
-#include "MathLibrary.h"
+#include "math.h"
 
 int main()
 {
@@ -9,13 +9,13 @@ int main()
     int b = 99;
 
     std::cout << "a + b = " <<
-        MathLibrary::Arithmetic::Add(a, b) << std::endl;
+        math::Arithmetic::Add(a, b) << std::endl;
     std::cout << "a - b = " <<
-        MathLibrary::Arithmetic::Subtract(a, b) << std::endl;
+        math::Arithmetic::Subtract(a, b) << std::endl;
     std::cout << "a * b = " <<
-        MathLibrary::Arithmetic::Multiply(a, b) << std::endl;
+        math::Arithmetic::Multiply(a, b) << std::endl;
     std::cout << "a / b = " <<
-        MathLibrary::Arithmetic::Divide(a, b) << std::endl;
+        math::Arithmetic::Divide(a, b) << std::endl;
 
     return 0;
 }
