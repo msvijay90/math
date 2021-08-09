@@ -1,0 +1,14 @@
+{
+ "root": {
+  "version": null, 
+  "name": null, 
+  "channel": "stable", 
+  "user": "math"
+ }, 
+ "options": [
+  [
+   "mathlib:shared", 
+   "False"
+  ]
+ ]
+}

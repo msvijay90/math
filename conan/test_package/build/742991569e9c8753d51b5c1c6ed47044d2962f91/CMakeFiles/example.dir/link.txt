@@ -1,0 +1,3 @@
+D:\SOFTWARE\cmake-3.21.1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\example.dir/objects.a
+C:\win-build\bin\ar.exe qc CMakeFiles\example.dir/objects.a @CMakeFiles\example.dir\objects1.rsp
+C:\win-build\bin\g++.exe   -m64 -O3 -DNDEBUG  -Wl,--whole-archive CMakeFiles\example.dir/objects.a -Wl,--no-whole-archive -o bin\example.exe -Wl,--out-implib,lib\libexample.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\example.dir\linklibs.rsp

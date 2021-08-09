@@ -1,0 +1,25 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "path": "..\\..\\conanfile.py", 
+    "requires": [
+     "1"
+    ], 
+    "options": "mathlib:shared=False", 
+    "context": "host"
+   }, 
+   "1": {
+    "modified": true, 
+    "package_id": "86cc9458b99a2e753087b8e2e122fa1838603e69", 
+    "context": "host", 
+    "prev": "0", 
+    "ref": "mathlib/0.1@math/stable", 
+    "options": "shared=False"
+   }
+  }, 
+  "revisions_enabled": false
+ }, 
+ "version": "0.4", 
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++\ncompiler.version=4.8\nos=Windows\nos_build=Windows\n[options]\n[build_requires]\n[env]\n"
+}
