@@ -1,4 +1,4 @@
-// math.cpp test
+// math.cpp
 
 #include <iostream>
 #include "math.h"
